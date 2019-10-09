@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body background="1.png">
+		<table border="1" height="500" width="850">
+		<tr><th align="center" colspan="3"><h1><font color="blue">高考志愿表</font></h1></th></tr>
+		<tr><td><font color="blue">姓名：</font><input></input></td><td rowspan="6" colspan="2"><img src="20180309170752817%20(2).jpg" height="350" width="600"></img></td></tr>
+		<tr><td><font color="blue">性别：</font><form action="save.php" method="post">
+		 <label><font color="blue">男</font></label>
+		 <input type="radio" value="1" name="gender">
+		 <label><font color="blue">女</font></label>
+		 <input type="radio" value="2" name="gender">
+		</form></td></tr>
+		<tr><td><font color="blue">本人信息：</font><input></input></td></tr>
+		<tr><td><form action="save.php" method="post" >
+    <label>名族:</label>
+    <select>
+      <option value="汉族"><font color="blue">汉族</font></option>
+      <option value="傣族"><font color="blue">傣族</font></option>
+      <option value="苗族"><font color="blue">苗族</font></option>
+      <option value="其他"><font color="blue">其他</font></option>
+    </select>
+	</form></td></tr>
+		<tr><td><font color="blue">年龄：</font><input></input></td></tr>
+		<tr><td><font color="blue">特长：</font><input></input></td></tr>
+		<tr><td><font color="blue">第一志愿：</font><input></input></td><td><font color="blue">专业：</font><input></input></td>
+<td><font color="blue">是否服从调剂：</font><select><option value="是">是</option><option value="否">否</option></select></td></tr>
+		<tr><td><font color="blue">第二志愿：</font><input></input></td><td><font color="blue">专业：</font><input></input></td>
+<td><font color="blue">是否服从调剂：<select><option value="是">是</option><option value="否">否</option></select></td></tr>
+		<tr><td><font color="blue">第三志愿：</font><input></input></td><td><font color="blue">专业：</font><input></input></td>
+<td><font color="blue">是否服从调剂：<select><option value="是">是</option><option value="否">否</option></select></td></tr>
+		<tr><td><font color="blue">第四志愿：</font><input></input></td><td><font color="blue">专业：</font><input></input></td>
+<td><font color="blue">是否服从调剂：</font><select><option value="是">是</option><option value="否">否</option></select></td></tr>
+	</table><tr><input type="submit" value="提交" name="submitBtn" /></tr>
+	</body>
+</html>
