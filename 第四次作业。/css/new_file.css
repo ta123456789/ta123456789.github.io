@@ -1,0 +1,160 @@
+.all{
+	width:1500px;
+	height:950px;
+	background:#000000;
+}
+.title{
+	width:1498px;
+	height: 98px;
+	background:#4F4F4F;
+	border:#F9F900 1px solid;
+}
+.title_left{
+	width:398px;
+	height:96px;
+	float: left;
+	border-radius:30px;
+}
+.title_right{
+	width: 1100px;
+	height: 96px;
+	float:right;
+	color:white;
+	text-align: center;
+	font-size: 25px;
+	line-height:1em;
+	font-family:KaiTi;
+	letter-spacing:50px;
+	border-radius:30px;
+}
+.body{
+	width:1500px;
+	height:800px;
+	background:#000000;
+	float:right;
+}
+.body_left{
+	width: 298px;
+	height: 798px;
+	float: left;
+	background: #ADADAD;
+	border:#F9F900 1px solid;
+	border-radius:30px;
+	font-family:KaiTi;
+}
+.body_left1{
+	width:298px;
+	height:33%;
+	border-bottom:#F9F900 2px dotted;
+}
+.body_left2{
+	width:298px;
+	height:33%;
+	border-bottom:#F9F900 2px dotted;
+}
+.body_left3{
+	width:298px;
+	height:33%;
+}
+b{
+	background: pink;
+	border-radius: 10px;
+}
+.body_big{
+	width:1200px;
+	height: 800px;
+	background:#000000;
+	float:right;
+}
+.body_one{
+	width:498px;
+	height: 498px;
+	background: #4F4F4F;
+	float: left;
+	font-family:KaiTi;
+	font-size:31px;
+	color: #ECFFFF;
+	border: #F9F900 solid 1px;
+	border-radius:30px;
+}
+.body_one1{
+	widows:200px;
+	height:20px;
+	margin-left:15px;
+}
+img {float:left; margin:0 5px 5px 0;}
+.body_two{
+	width: 698px;
+	height:298px;
+	background: #7B7B7B;
+	float: right;
+	border:#F9F900 1px solid;
+	border-radius:30px;
+	font-family:KaiTi;
+	font-size:25px;
+	color: #ECFFFF;
+}
+.body_two1{
+	widows:200px;
+	height:20px;
+	margin-top:20px;
+}
+.body_three{
+	width:498px;
+	height: 498px;
+	background: #272727;
+	float:right;
+	border:#F9F900 1px solid;
+	border-radius:30px;
+	font-family:KaiTi;
+	font-size:25px;
+	color: #ECFFFF;
+}
+.body_three1{
+	widows:200px;
+	height:20px;
+	margin-left:30px;
+}
+.body_four{
+	width:198px;
+	height:498px;
+	float: right;
+	background: #4F4F4F;
+	border:#F9F900 1px solid;
+	text-align: center;
+	line-height:3em;
+	font-size:30px;
+	font-family:KaiTi;
+	border-radius:30px;
+	border-radius:30px;
+}
+a:hover{color:red;}
+a{color:#000000;
+text-decoration:none;
+background:pink;
+border-radius:50px;
+}
+.body_five{
+	width:498px;
+	height:298px;
+	float: left;
+	background:#272727;
+	border:#F9F900 1px solid;
+	border-radius:30px;
+	font-size:18px;
+	font-family:KaiTi;
+	color: #FFC0CB;
+}
+.body_five1{
+	widows:200px;
+	height:20px;
+	margin-left:19px;
+	margin-top:10px;
+}
+.footer{
+	height:50px;
+	width: 1500px;
+	text-align: center;
+	color: #ADADAD;
+	font-size:20px;
+}
