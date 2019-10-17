@@ -57,10 +57,10 @@
 	}
 	.divA p{
 		text-align: center;
-		font-size:50px;
+		font-size:25px;
 	}
 	.divA1{
-		width:150px;
+		width:250px;
 		height:100px;
 		position:relative;
 		left:150px;
@@ -70,7 +70,7 @@
 		width: 250px;
 	}
 	.divA2{
-		width:150px;
+		width:250px;
 		height:100px;
 		position:relative;
 		left:600px;
@@ -81,7 +81,7 @@
 		height: 270px
 	}
 	.divA3{
-		width:150px;
+		width:240px;
 		height:100px;
 		position:relative;
 		left:150px;
@@ -91,7 +91,7 @@
 		width: 240px;
 	}
 	.divA4{
-		width:150px;
+		width:250px;
 		height:100px;
 		position:relative;
 		left:600px;
