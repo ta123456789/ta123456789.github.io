@@ -55,6 +55,10 @@
 		top: 0;
 		background: white;
 	}
+	.divA p{
+		text-align: center;
+		font-size:50px;
+	}
 	.divA1{
 		width:150px;
 		height:100px;
@@ -65,11 +69,6 @@
 	.divA1 img{
 		width: 250px;
 	}
-	.divA1 p{
-		width: 250px;
-		text-align: center;
-		font-size:25px;
-	}
 	.divA2{
 		width:150px;
 		height:100px;
@@ -77,15 +76,9 @@
 		left:600px;
 		top: -20px;
 	}
-	}
 	.divA2 img{
 		width: 250px;
 		height: 270px
-	}
-	.divA2 p{
-		width: 250px;
-		text-align: center;
-		font-size:25px;
 	}
 	.divA3{
 		width:150px;
@@ -97,11 +90,6 @@
 	.divA3 img{
 		width: 240px;
 	}
-	.divA3 p{
-		width: 250px;
-		text-align: center;
-		font-size:25px;
-	}
 	.divA4{
 		width:150px;
 		height:100px;
@@ -111,11 +99,6 @@
 	}
 	.divA4 img{
 		width: 240px;
-	}
-	.divA4 p{
-		width: 250px;
-		text-align: center;
-		font-size:25px;
 	}
 	#footer{
 		background-color:#4F4F4F;
