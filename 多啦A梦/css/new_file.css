@@ -1,24 +1,24 @@
 .touwai{
-	width: 200px;
+	width: 210px;
 	height:200px;
 	background:rgba(60,160,250,0.9);
 	border:2px solid rgba(0,0,0,0.8);
 	border-bottom: hidden;
-	border-radius:50%;
-	position: relative;
+	border-radius:56% 56% 55% 55%;
+	position: absolute;
 	top:10px;
 	left:200px;
 	overflow: hidden;
 }
 .tounei{
-	width: 180px;
+	width: 186px;
 	height: 160px;
 	background:rgba(255,255,255,1);
 	border:1.8px solid rgba(0,0,0,0.8);
 	border-radius:55% 55% 60% 60% ;
 	position: absolute;
 	bottom:1px;
-	left:9px;
+	left:10px;
 }
 .zuoyan{
 	width: 41px;
@@ -27,21 +27,22 @@
 	border:1.8px solid rgba(0,0,0,0.8);
 	border-radius:50%;
 	position: absolute;
-	left:46px;
+	left:48.5px;
 	top: -20px;
+	transform: rotate(-5deg);
 }
 .yanzhu{
 	width:4px;
-	height:6px;
+	height:5px;
 	background: rgba(255,255,255,0.9);
-	border-top:9px solid rgba(0,0,0,1);
+	border-top:10px solid rgba(0,0,0,1);
 	border-bottom:9px solid rgba(0,0,0,1);
 	border-left:5px solid rgba(0,0,0,1);
 	border-right:5px solid rgba(0,0,0,1);
 	border-radius:99%;
 	position: absolute;
 	left:22px;
-	bottom:8px;
+	bottom:7px;
 }
 .youyan{
 	width: 41px;
@@ -50,6 +51,308 @@
 	border:1.8px solid rgba(0,0,0,0.8);
 	border-radius:50%;
 	position: absolute;
-	right:46px;
+	right:48.5px;
 	top: -20px;
+	transform: rotate(5deg);
+}
+.miyan{
+	width:20px;
+	height:0px;
+	border-top:22px solid rgba(0,0,0,0.8) ;
+	border-left:1px solid rgba(0,0,0,0.8) ;
+	border-right:2px solid rgba(0,0,0,0.8) ;
+	border-radius:90% 90% ;
+	position: absolute;
+	left:6px;
+	bottom:5px;
+	transform: rotate(5deg);
+}
+.miyanzhe{
+	width:22px;
+	height:18px;
+	background: white;
+	position: absolute;
+	left: -0.5px;
+	bottom: -1px;
+	border-radius:90%;
+	
+}
+.huzui{
+	width:160px ;
+	height:120px;
+	background-color:rgba(0,0,0,0) ;
+	border-radius:46% ;
+	border-bottom:2px solid rgba(0,0,0,0.9);
+	position: absolute;
+	bottom:30px;
+	left:14px;
+}
+.jiuwo1{
+	width:10px;
+	height:30px;
+	background-color:white;
+	border-bottom:2.5px solid black;
+	position: absolute;
+	border-radius:12% ;
+	top:68px;
+	left:3px;
+	transform: rotate(-25deg);
+}
+.jiuwo2{
+	width:10px;
+	height:30px;
+	background-color:white;
+	border-bottom:2px solid black;
+	position: absolute;
+	border-radius:12% ;
+	top:68px;
+	right:3px;
+	transform: rotate(25deg);
+}
+.bizi{
+	width:25px;
+	height:25px;
+	background-color:rgba(230,20,30,1);
+	border:2px solid rgba(0,0,0,1);
+	border-radius:50%;
+	position: absolute;
+	top:15px;
+	left:65px;
+}
+.bizili{
+	width:9px;
+	height:9px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	position: absolute;
+	top:5px;
+	left:8px;
+}
+.feng{
+	width: 1.75px;
+	height: 80px;
+	background: #000000;
+	position: absolute;
+	top:40px;
+	left:78px ;
+}
+.houzizuo1{
+	width:60px;
+	height:1.75px;
+	background: #000000;
+	position: absolute;
+	top:30px;
+	left:-10px;
+	transform: rotate(20deg);
+}
+.houzizuo2{
+	width:70px;
+	height:1.75px;
+	background: #000000;
+	position: absolute;
+	top:55px;
+	left:-25px;
+	transform: rotate(0deg);
+}
+.houzizuo3{
+	width:60px;
+	height:1.75px;
+	background: #000000;
+	position: absolute;
+	top:85px;
+	left:-10px;
+	transform: rotate(-20deg);
+}
+.houziyou1{
+	width:60px;
+	height:1.75px;
+	background: #000000;
+	position: absolute;
+	top:30px;
+	right:-10px;
+	transform: rotate(-20deg);
+}
+.houziyou2{
+	width:65px;
+	height:1.75px;
+	background: #000000;
+	position: absolute;
+	top:55px;
+	right:-20px;
+	transform: rotate(0deg);
+}
+.houziyou3{
+	width:60px;
+	height:1.75px;
+	background: #000000;
+	position: absolute;
+	top:85px;
+	right:-10px;
+	transform: rotate(20deg);
+}
+.zuoshou{
+	width:53px;
+	height:150px;
+	background:rgba(60,160,250,0.9);
+	border:2px solid rgba(0,0,0,0.8);
+	border-radius:50%;
+	position:absolute;
+	top:135px;
+	left:200px;
+	transform: rotate(-55deg);
+}
+.zuoquan{
+	width: 50px;
+	height: 50px;
+	background: #FFFFFF;
+	border:2px solid rgba(0,0,0,0.8);
+	border-radius:50%;
+	position: absolute;
+	top: -30px;
+	left: 0px;
+}
+.youshou{
+	width:60px;
+	height: 80px;
+	background:rgba(60,160,250,0.9);
+	border:2px solid rgba(0,0,0,0.8);
+	border-radius:50% 50% 45% 45%;
+	
+	position: absolute;
+	top:195px;
+	left:330px;
+	transform: rotate(-50deg);
+}
+.shengti{
+	width: 140px;
+	height:120px;
+	background:rgba(60,160,250,1);
+	border:2px solid rgba(0,0,0,0.8);
+	border-top: hidden;
+	position: absolute;
+	top: 200px;
+	left:230px;
+	border-radius:20% 20% 5% 5%;
+}
+.hongdai{
+	width:120px;
+	height:8px;
+	background:rgba(230,10,10,1);
+	border:2px solid rgba(0,0,0,0.8);
+	position: absolute;
+	top:-5px;
+	left:8px;
+	border-radius:20%;
+}
+.lingdangwai{
+	width: 28px;
+	height: 28px;
+	background:rgba(250,230,2,1);
+	border:2px solid rgba(0,0,0,0.8);
+	position: absolute;
+	top:1px;
+	left:45px;
+	border-radius:50%;
+}
+.lingdangz{
+	width:30px;
+	height:2.5px;
+	background:rgba(250,230,2,1);
+	border:2px solid rgba(0,0,0,0.8);
+	border-radius:20px 20px 10px 10px;
+	position: absolute;
+	top:4px;
+	left:-3px;
+}
+.lingdangk{
+	width:5px;
+	height:5px;
+	background:rgba(0,0,0,0.5);
+	border:1.9999999px solid rgba(0,0,0,0.8);
+	border-radius:50%;
+	position: absolute;
+	top:12px;
+	left:10px;
+}
+.lingdangx{
+	width: 2.5px;
+	height: 8px;
+	background:rgba(0,0,0,1);
+	position: absolute;
+	bottom:0px;
+	left:13px;
+}
+.duzi{
+	width: 110px;
+	height:95px;
+	background:rgba(255,255,255,1);
+	border:2px solid rgba(0,0,0,0.8);
+	position: absolute;
+	top: -5px;
+	left:15px;
+	border-radius:50% 50% 55% 55%;
+}
+.koudai{
+	width:75px;
+	height: 35px;
+	background:rgba(255,255,255,1);
+	border:2px solid rgba(0,0,0,0.8);
+	position: absolute;
+	top: 45px;
+	left:15px;
+	border-radius:5px 5px 40px 40px;
+}
+.tui1{
+	width:17px;
+	height: 2px;
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	top: 105px;
+	left: 61px;
+}
+.tui2{
+	width:2px;
+	height:15px;
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	top: 105px;
+	left: 69px;
+}
+.zhe1{
+	width: 15px;
+	height:15px;
+	background:rgba(60,160,250,1);
+	border-radius:50px ;
+	position: absolute;
+	top:6px;
+	left:-2px;
+}
+.zhe2{
+	width: 15px;
+	height:20px;
+	background:rgba(60,160,250,1);
+	border-radius:50px ;
+	position: absolute;
+	top:6px;
+	right:-2px;
+}
+.zuojiao{
+	width:89px;
+	height:33px;
+	background:rgba(255,255,255,1);
+	border:2px solid rgba(0,0,0,0.8);
+	border-radius:50px 0px 50px 50px;
+	position: absolute;
+	top:315px;
+	left:213px;
+}
+.youjiao{
+	width:85px;
+	height:33px;
+	background:rgba(255,255,255,1);
+	border:2px solid rgba(0,0,0,0.8);
+	border-radius:30px 50px 50px 50px;
+	position: absolute;
+	top:315px;
+	left:300px;
 }
