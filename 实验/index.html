@@ -6,62 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <style>
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
- 
-    .container {
-      width: 80%;
-      margin: 50px auto;
-    }
- 
-    #list1,
-    #list2 {
-      display: none;
-    }
- 
-    #list1:target,
-    #list2:target {
-      display: block;
-    }
- 
-    .nav li {
-      float: left;
-      padding: 50px;
-    }
- 
-    .nav li a {
-      display: inline-block;
-      text-decoration: none;
-    }
- 
-    #list1:target~ .nav li:first-child {
-      background-color: #ff5;
-    }
- 
-    #list2:target~ .nav li:last-child {
-      background-color: aquamarine;
-    }
-  </style>
+	<style>
+		#dengpao{
+			width: 100px;
+			height: 100px;
+			border:2px solid #000000;
+			border-radius:50%;
+			background: #483D8B;
+			font-size:10px;
+			color: #FFFF00;
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-  <div class="container">
-    <div id="list1">首页的内容</div>
-    <div id="list2">关于我们的内容</div>
-    <ul class="nav">
-      <li>
-        <a href="#list1">首页</a>
-      </li>
-      <li>
-        <a href="#list2">关于我们</a>
-      </li>
-    </ul>
-  </div>
+	<div id="dengpao">
+		<h2>JavaScript 能够做什么</h2></div>
+<button type="button" onclick="document.getElementById('dengpao').style.background: black">
+点击我！
+</button>
+	
+
+	
 </body>
 </html>
-————————————————
-版权声明：本文为CSDN博主「油菜花666」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/rose999ying/article/details/83104301
