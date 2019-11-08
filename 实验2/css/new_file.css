@@ -191,8 +191,8 @@
 }
 .shen{
 	width:1450px;
-	height:1500px;
-	background:bisque;
+	height:1000px;
+	background:rgba(255,255,255,1);
 	position: absolute;
 	top:162px;
 	left:20px;
@@ -201,7 +201,7 @@
 	width: 800px;
 	height:300px;
 	position: absolute;
-	left: 0px;
+	left: 40px;
 	top:50px;
 	background: url(../img/zuo.jpeg);
 	background-size:100% ;
@@ -219,3 +219,135 @@
 .shen_z_zue:hover{
 	background:rgba(0,0,0,0);
 }
+.shen_z_you{
+	width:402px;
+	height: 302px;
+	position: absolute;
+	right: -500px;
+	top:-20px;
+	background:url(../img/tuo.png);
+	background-size:100% ;
+	border:2px solid rgba(0,0,0,0.5);
+}
+.shen_mid{
+	width:902px;
+	height:400px;
+	background: white;
+	position:absolute;
+	top: 300px;
+	left: -20px;
+	border: 1px solid rgba(0,0,0,0.5);
+}
+.shen_mid_lan{
+	width:900px;
+	height: 60px;
+	background:url(../img/栏.png);
+	position: absolute;
+	top: -20px;
+	left: -20px;
+}
+.shen_mid_1{
+	width:200px;
+	height: 280px;
+	background:url(../img/1号.png);
+	background-size:100% ;
+	position: absolute;
+	top:80px;
+	left: 0px;
+	transition: 0.3s;
+}
+.shen_mid_1:hover{
+	top:75px;
+}
+.shen_mid_1 a{
+	width:200px;
+	height: 280px;
+	background:rgba(0,0,0,0.1);
+	background-size:100% ;
+	position: absolute;
+	top:-20px;
+	left: -20px;
+	transition: 0.3s;
+}
+.shen_mid_1 a:hover{
+	background:rgba(0,0,0,0);
+}
+.shen_mid_2{
+	width:200px;
+	height: 279px;
+	background:url(../img/2号.png);
+	background-size:100% ;
+	position: absolute;
+	top:80px;
+	left: 220px;
+	transition: 0.2s;
+}
+.shen_mid_2:hover{
+	top:75px;
+}
+.shen_mid_2 a{
+	width:200px;
+	height: 280px;
+	background:rgba(0,0,0,0.1);
+	background-size:100% ;
+	position: absolute;
+	top:-20px;
+	left: -20px;
+	transition: 0.3s;
+}
+.shen_mid_2 a:hover{
+	background:rgba(0,0,0,0);
+}
+.shen_mid_3{
+	width:200px;
+	height: 280px;
+	background: url(../img/3号.png);
+	background-size:100% ;
+	position: absolute;
+	top:80px;
+	left:440px;
+	transition: 0.2s;
+}
+.shen_mid_3:hover{
+	top:75px;
+}
+.shen_mid_3 a{
+	width:200px;
+	height: 280px;
+	background:rgba(0,0,0,0.1);
+	background-size:100% ;
+	position: absolute;
+	top:-20px;
+	left: -20px;
+	transition: 0.3s;
+}
+.shen_mid_3 a:hover{
+	background:rgba(0,0,0,0);
+}
+.shen_mid_4{
+	width:200px;
+	height: 280px;
+	background:url(../img/4号.png);
+	background-size:100% ;
+	position: absolute;
+	top:80px;
+	left: 660px;
+	transition: 0.2s;
+}
+.shen_mid_4:hover{
+	top:75px;
+}
+.shen_mid_4 a{
+	width:200px;
+	height: 280px;
+	background:rgba(0,0,0,0.1);
+	background-size:100% ;
+	position: absolute;
+	top:-20px;
+	left: -20px;
+	transition: 0.3s;
+}
+.shen_mid_4 a:hover{
+	background:rgba(0,0,0,0);
+}
+.
