@@ -1,0 +1,184 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.head{
+	margin: auto;
+	width: 1400px;
+	height: 200px;
+	background: rgba(49, 32, 24, 0);
+}
+.head h1{
+	width:1400px;
+	display:block;
+	position:absolute;
+	top:30px;
+	text-align: center;
+	font-family:KaiTi;
+	font-size:60px;
+	margin: auto;
+}
+
+.biaoti {
+	position:relative;
+	top:140px;
+	margin-top:0px;
+	width:1400px;
+	height: 60px;
+	background:rgba(0,0,0,0.5);
+}
+
+.biaoti ul {
+	padding: 0px;
+	position: absolute;
+	
+}
+
+.biaoti a {
+	color: #FFF;
+	width: 350px;
+	height:60px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 55px;
+	font-family: Microsoft Yahei;
+	font-weight: 2px;
+	transition:0.3s;
+}
+.biaoti ul li {
+	list-style: none;
+	float: left;
+}
+.biaoti ul li a:hover{
+	background:rgba(206,160,162,0.9);
+}
+.biaoti ul:hover{
+	display: block;
+}
+.biaoti ul li ul{
+	background:rgba(0,0,0,0);
+	position:absolute;
+	display: none;
+	
+}
+.biaoti ul li ul li{
+	float: none;
+	background:rgba(0,0,0,0.5);
+}
+.biaoti ul li ul li a{
+	font-size:13px;
+	font-weight: 0px;
+	transition:0.3s;
+}
+.biaoti ul li:hover ul{
+	display: block;
+}
+.mokuai1 {
+	margin: auto;
+	width: 1400px;
+	height: 800px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.mokuai2 {
+	margin: auto;
+	width: 1400px;
+	height: 800px;
+	background: rgb(0,255,26,1);
+}
+
+.mokuai3 {
+	margin: auto;
+	width: 1400px;
+	height: 800px;
+	background: rgba(0, 10, 255, 1);
+}
+
+.daohang_1 {
+	width: 150px;
+	height: 50px;
+	position: fixed;
+	border-radius: 25px 0 0 25px;
+	right: -100px;
+	bottom: 100px;
+	background: rgba(0, 0, 0, 0.4);
+	transition: 0.5s;
+}
+.daohang_1 button{
+	width:150px;
+	height:50px;
+	border:0px;
+	border-radius:25px 0 0 25px;
+	background: rgba(0,0,0,0.4);
+}
+.daohang_1:hover {
+	right: 0px;
+	background: rgba(240,214,225,0.9);
+}
+
+.daohang_2 {
+	width: 150px;
+	height: 50px;
+	position: fixed;
+	border-radius: 25px 0 0 25px;
+	right: -100px;
+	bottom: 160px;
+	background: rgba(0, 0, 0, 0.4);
+	transition: 0.5s;
+}
+
+.daohang_2:hover {
+	right: 0px;
+	background: rgba(240,214,225,0.9);
+}
+
+.daohang_3 {
+	width: 150px;
+	height: 50px;
+	position: fixed;
+	border-radius: 25px 0 0 25px;
+	right: -100px;
+	bottom: 220px;
+	background: rgba(0, 0, 0, 0.4);
+	transition: 0.5s;
+}
+
+.daohang_3:hover {
+	right: 0px;
+	background: rgba(240,214,225,0.9);
+}
+
+.daohang_4 {
+	width: 150px;
+	height: 50px;
+	position: fixed;
+	border-radius: 25px 0 0 25px;
+	right: -100px;
+	bottom: 280px;
+	background: rgba(0, 0, 0, 0.4);
+	transition: 0.5s;
+}
+i {
+	display: block;
+	position:absolute;
+	left:12px;
+	top:8px;
+	color:rgba(0,0,0,0.7);
+}
+p {
+	display: block;
+	position: absolute;
+	left:50px;
+	top:20px;
+}
+h3 {
+	display:block;
+	position:absolute;
+	left:80px;
+}
+
+.daohang_4:hover {
+	right: 0px;
+	background: rgba(240,214,225,0.9);
+}

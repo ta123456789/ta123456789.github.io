@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>confirm</title>
+  <script type="text/javascript">
+  function rec(){
+    var mymessage=confirm("是否打开？");
+    if(mymessage==true)
+    {
+    	window.open('https://ta123456789.github.io/目录/index')
+    }
+  }    
+  </script>
+  <style type="text/css">
+  	input{
+		position: absolute;
+		left:500px;
+		width: 200px;
+		height: 100px;
+		color: aqua;
+		font-size: 20px;
+		background: #000000;
+	}
+  </style>
+</head>
+<body>
+    <input name="button" type="button" onClick="rec()" value="点击我" />
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css" />
+	</head>
+	<body>
+		<button type="button" onclick="jia()">点击增加</button>
+		<button type="button" onclick="jian()">点击减少</button>
+		<div id="liu">
+			<ul id="list">
+				<li>6666</li>
+			</ul>
+		</div>
+
+		<script>
+			function jia() {
+				var good = document.createElement("li");
+				good.innerHTML = "6666";
+				var jiajia = document.getElementById("liu");
+				jiajia.appendChild(good);
+			}
+			function jian(){
+				var good = document.createElement("li");
+				good.innerHTML = "6666";
+				var jiajia = document.getElementById("liu");
+				jiajia.lastChild(good);
+			}
+		</script>
+	</body>
+</html>
