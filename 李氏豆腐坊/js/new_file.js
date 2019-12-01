@@ -1,5 +1,5 @@
 	$(function(){
-		var timer = setInterval(autoPlay,3000);
+		var timer = setInterval(autoPlay,2000);
 		var iNow = 0;
 		var iX = $(".banner_ul li").width();
 		var iL = $(".banner_ul").children();
