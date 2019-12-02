@@ -82,6 +82,7 @@ a:hover {
 	color: aqua;
 	font-size: 30px;
 	line-height: 70px;
+	transition:1s;
 }
 
 
