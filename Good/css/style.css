@@ -31,13 +31,11 @@ a {
   font-style: italic;
 }
 #hero-slides #header #logo:before {
-  content: 'The';
   text-transform: uppercase;
   font-weight: 100;
   margin-right: 0.4em;
 }
 #hero-slides #header #logo:after {
-  content: 'Wall';
   text-transform: uppercase;
   font-weight: 800;
 }
@@ -48,12 +46,6 @@ a {
   bottom: 0;
   cursor: pointer;
   padding: 0 3vw;
-}
-#hero-slides #header #menu:before {
-  font-size: 1.75vh;
-  content: 'Play Demo';
-  margin-right: 0.5em;
-  text-transform: uppercase;
 }
 #hero-slides #header #menu #hamburger {
   display: inline-block;
@@ -141,11 +133,11 @@ a {
   z-index: 90;
 }
 #hero-slides #slides-cont #next-catch {
-  left:350px;
-	top:-55px;
+  top: -55px;
+	left:350px;
 }
 #hero-slides #slides-cont #prev-catch {
-	top:-55px;
+	top: -55px;
   left: 420px;
 }
 #hero-slides #slides {
